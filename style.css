@@ -1,0 +1,83 @@
+body {
+    background-color: lightblue;
+    padding: 25px;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+    font-family: didot, serif;
+    text-align: center;
+  }
+
+  h2 {
+    color: navy;
+    margin-left: 20px;
+    font-family: didot, serif;
+    text-align: center;
+  }
+
+  p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .link
+  {
+    color: blue;
+    padding: 25px;
+  }
+
+  .intro{
+    text-align: center;
+  }
+
+  .iconimg {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 30px;
+    padding: 25px;
+  }
+
+  .image{
+    width: 700px;
+    height: 480px;
+    padding: 25px;
+    float: left;
+    align-items: center;
+  }
+
+  .centerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 15px;
+
+  }
+
+  .card{
+    max-width: 500px;
+    height: 600px;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    align-items: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .foot{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+
